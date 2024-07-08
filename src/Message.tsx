@@ -1,8 +1,11 @@
 
 function Message(){
 
-    // JSX: javascript xml
-    return <h1>Hello World</h1>
+    const name = 'Santiago';
+
+    if(name)
+        return <h1>Hello {name}</h1>// JSX: javascript xml
+    return <h1>Hello Stranger</h1>
 
 }
 
