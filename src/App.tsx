@@ -1,9 +1,11 @@
-import ListGroup from './componets/ListGroup';
+import ListGroup from "./componets/ListGroup";
 
-function App(){
-
-  return <div><ListGroup /></div>;
+function App() {
+  return (
+    <div>
+      <ListGroup items={[]} heading={""} />
+    </div>
+  );
 }
 
 export default App;
-
